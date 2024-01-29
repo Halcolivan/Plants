@@ -3,13 +3,13 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: "Inter", "Verdana", sans-serif;
+  font-family: Inter, Verdana, sans-serif;
 }
 h1 {
   @include font(45px, 700, 111.111%);
 }
 h2 {
-  font-family: "Inika", "Verdana", sans-serif;
+  @extend %font-add;
   @include font(40px, 400, normal);
 }
 h3 {

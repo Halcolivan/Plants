@@ -311,13 +311,45 @@ template {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Inika"), url("../../fonts/Inika-Regular.woff") format("woff"), url("../../fonts/Inika-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Inika"), url("../../fonts/Inika-Bold.woff") format("woff"), url("../../fonts/Inika-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Inter"), url("../../fonts/Inter-Regular.woff") format("woff"), url("../../fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Inter"), url("../../fonts/Inter-Bold.woff") format("woff"), url("../../fonts/Inter-Bold.woff2") format("woff2");
+}
+.nav-link, .header__logo-title, h2 {
+  font-family: Inika, Verdana, sans-serif;
+}
+
 html {
   font-size: 10px;
 }
 
 body {
   font-size: 1.6rem;
-  font-family: "Inter", "Verdana", sans-serif;
+  font-family: Inter, Verdana, sans-serif;
 }
 
 h1 {
@@ -328,7 +360,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Inika", "Verdana", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -349,7 +380,7 @@ h3 {
 
 .header {
   background: #EDF2EC;
-  padding: 42px 0;
+  padding: 4.2rem 0;
 }
 
 .header__wrapper {
@@ -363,8 +394,6 @@ h3 {
 }
 
 .header__logo-title {
-  color: #000;
-  font-family: Inika;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
@@ -381,7 +410,7 @@ h3 {
 }
 
 .nav-link:not(:last-child) {
-  padding-right: 46px;
+  padding-right: 4.6rem;
 }
 
 .welcome {

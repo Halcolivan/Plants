@@ -1,6 +1,6 @@
 .header {
   background: $color-backgraund;
-  padding: 42px 0;
+  padding: 4.2rem 0;
 }
 .header__wrapper {
   display: flex;
@@ -13,12 +13,8 @@
 .header__logo-image {
 }
 .header__logo-title {
-  color: #000;
-font-family: Inika;
-font-size: 1.6rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  @extend %font-add;
+  @include font(1.6rem, 400, normal);
 }
 .header__nav {
 }
@@ -26,10 +22,10 @@ line-height: normal;
   display: flex;
 }
 .nav-link {
+  @extend %font-add;
   list-style: none;
-  // padding: 0 23px;
   cursor: pointer;
 }
 .nav-link:not(:last-child) {
-  padding-right: 46px;
+  padding-right: 4.6rem;
 }
