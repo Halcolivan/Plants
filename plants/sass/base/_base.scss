@@ -1,0 +1,17 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", "Verdana", sans-serif;
+}
+h1 {
+  @include font(45px, 700, 111.111%);
+}
+h2 {
+  font-family: "Inika", "Verdana", sans-serif;
+  @include font(40px, 400, normal);
+}
+h3 {
+  @include font(20px, 700, 100%);
+}

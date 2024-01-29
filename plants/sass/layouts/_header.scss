@@ -1,0 +1,35 @@
+.header {
+  background: $color-backgraund;
+  padding: 42px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+}
+.header__logo-image {
+}
+.header__logo-title {
+  color: #000;
+font-family: Inika;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__nav {
+}
+.navigation {
+  display: flex;
+}
+.nav-link {
+  list-style: none;
+  // padding: 0 23px;
+  cursor: pointer;
+}
+.nav-link:not(:last-child) {
+  padding-right: 46px;
+}
