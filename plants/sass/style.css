@@ -339,8 +339,29 @@ template {
   font-display: swap;
   src: local("Inter"), url("../../fonts/Inter-Bold.woff") format("woff"), url("../../fonts/Inter-Bold.woff2") format("woff2");
 }
+.welcome__button:hover, .nav-link:hover {
+  transition: color 0.7s;
+}
+
+.welcome__button:hover {
+  transition: background-color 0.7s;
+}
+
 .nav-link, .header__logo-title, h2 {
   font-family: Inika, Verdana, sans-serif;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3, p {
+  margin: 0;
 }
 
 html {
@@ -357,7 +378,8 @@ h1 {
   font-size: 45px;
   font-style: normal;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 111%;
+  color: #717171;
 }
 
 h2 {
@@ -381,9 +403,14 @@ h3 {
 
 .header {
   background: #EDF2EC;
-  padding: 4.2rem 0;
+  padding: 4.2rem 5rem;
 }
 
+@media (max-width: 768px) {
+  .header {
+    padding-top: 3.6rem;
+  }
+}
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -392,6 +419,7 @@ h3 {
 
 .header__logo {
   display: flex;
+  align-items: center;
 }
 
 .header__logo-title {
@@ -406,16 +434,70 @@ h3 {
 }
 
 .nav-link {
-  list-style: none;
   cursor: pointer;
 }
 
 .nav-link:not(:last-child) {
-  padding-right: 4.6rem;
+  padding-right: 4.7rem;
+}
+
+.nav-link:hover {
+  color: #E06733;
 }
 
 .welcome {
   background: #EDF2EC;
+  padding: 5.2rem 0;
+}
+
+.welcome__wrapper {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.container-2-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome__leafs {
+  width: 50%;
+}
+
+.welcome__content {
+  width: 45%;
+  padding-top: 46px;
+}
+
+h1 {
+  margin-bottom: 44px;
+}
+
+.welcome__h1-span {
+  color: #499A18;
+}
+
+.welcome__text {
+  color: #636060;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+  width: 95%;
+  margin-bottom: 47px;
+}
+
+.welcome__button {
+  padding: 11px 26px;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #E06733;
+  cursor: pointer;
+}
+
+.welcome__button:hover {
+  background: #E06733;
+  color: #ffffff;
 }
 
 .service {

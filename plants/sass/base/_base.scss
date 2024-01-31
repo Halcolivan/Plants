@@ -1,3 +1,13 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+h1, h2, h3, p {
+  margin: 0;
+}
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -7,7 +17,8 @@ body {
   font-family: Inter, Verdana, sans-serif;
 }
 h1 {
-  @include font(45px, 700, 111.111%);
+  @include font(45px, 700, 111%);
+  color: $color-service;
 }
 h2 {
   @extend %font-add;
