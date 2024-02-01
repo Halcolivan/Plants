@@ -6,7 +6,7 @@
   max-width: 124rem;
   margin: 0 auto;
 }
-.container-2-columns {
+.welcome__container-2-columns {
   display: flex;
   justify-content: space-between;
 }
@@ -20,16 +20,11 @@
 h1 {
   margin-bottom: 44px;
 }
-.welcome__h1-span {
-  color: $color-additional;
-}
 .welcome__text {
   color: $color-text;
-  @include font(20px, 400, 175%);
+  @include font(2rem, 400, 175%);
   width: 95%;
   margin-bottom: 47px;
-}
-.welcome__button {
 }
 .welcome__button {
   padding: 11px 26px;
