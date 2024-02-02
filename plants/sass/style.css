@@ -455,7 +455,7 @@ h3 {
   margin: 0 auto;
 }
 
-.container-2-columns {
+.welcome__container-2-columns {
   display: flex;
   justify-content: space-between;
 }
@@ -471,10 +471,6 @@ h3 {
 
 h1 {
   margin-bottom: 44px;
-}
-
-.welcome__h1-span {
-  color: #499A18;
 }
 
 .welcome__text {
@@ -502,10 +498,117 @@ h1 {
 
 .service {
   background: #EDF2EC;
+  padding: 40px 0 121px 0;
+}
+
+.service__wrapper {
+  max-width: 1221px;
+  margin: 0 auto;
+}
+
+.service__head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.service__head h2 {
+  width: 25%;
+}
+
+.service__buttons {
+  width: 64%;
+  padding: 29px 0 0 8px;
+}
+
+.button {
+  border-radius: 5px;
+  border: 1px solid #E06733;
+  color: #E06733;
+  background: transparent;
+  font-family: Inika, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button-gardens {
+  padding: 11px 44px 11px 39px;
+  margin-right: 34px;
+}
+
+.button-lawn {
+  padding: 11px 54px 11px 53px;
+  margin-right: 33px;
+}
+
+.button-planting {
+  padding: 11px 43px 11px 39px;
+}
+
+.service__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px 116px;
+}
+
+.service__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service__image {
+  display: block;
+}
+
+.service__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #e3e1d5;
+  padding: 9px 32px 35px 29px;
+}
+
+.service__item-title {
+  color: #E06733;
+  margin-bottom: 15px;
 }
 
 .contact-us {
   background: #EDF2EC;
+}
+
+.about {
+  padding: 93px 0 91px;
+}
+
+.about__container-2-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__content {
+  width: 50%;
+  padding-top: 68px;
+}
+.about__content h2 {
+  width: 70%;
+  color: #E06733;
+  margin-bottom: 38px;
+}
+
+.about__text {
+  color: #636060;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-colored {
+  color: #499A18;
 }
 
 /*# sourceMappingURL=style.css.map */

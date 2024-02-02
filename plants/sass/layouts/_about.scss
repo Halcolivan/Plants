@@ -1,0 +1,20 @@
+.about {
+  padding: 93px 0 91px;
+}
+.about__container-2-columns {
+  display: flex;
+  justify-content: space-between;
+}
+.about__content {
+  width: 50%;
+  padding-top: 68px;
+  h2 {
+    width: 70%;
+    color: $color-prime;
+    margin-bottom: 38px;
+  }
+}
+.about__text {
+  color: $color-text;
+  @include font(2rem, 400, 150%);
+}
