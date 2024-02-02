@@ -608,7 +608,7 @@ h1 {
 }
 
 .prices {
-  padding: 40px 0 115px;
+  padding: 40px 0 102px;
 }
 
 .container-2-columns {
@@ -616,10 +616,47 @@ h1 {
   justify-content: space-between;
 }
 
+.prices__left-side {
+  width: 63%;
+}
+
 .prices__h2-left {
   font-family: Inter;
   font-weight: 700;
   line-height: 48px;
+  margin-bottom: 59px;
+}
+
+.prices__blok-accordion {
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  padding: 33px 39px;
+  width: 43%;
+}
+
+.prices__accordion-basics-container {
+  border-radius: 20px;
+  background: #EDF2EC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 41px 12px 40px;
+  margin-bottom: 20px;
+}
+
+.prices__accordion-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.prices__accordion-standard-container {
+  border-radius: 20px;
+  background: #EDF2EC;
+}
+
+.prices__accordion-pro-care-container {
+  border-radius: 20px;
+  background: #EDF2EC;
 }
 
 .prices__right-side {
