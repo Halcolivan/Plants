@@ -501,11 +501,6 @@ h1 {
   padding: 40px 0 121px 0;
 }
 
-.service__wrapper {
-  max-width: 1221px;
-  margin: 0 auto;
-}
-
 .service__head {
   display: flex;
   justify-content: space-between;
