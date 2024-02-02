@@ -1,0 +1,45 @@
+.prices {
+  padding: 40px 0 115px;
+}
+.container-2-columns {
+  display: flex;
+  justify-content: space-between;
+}
+.prices__left-side {
+}
+.prices__h2-left {
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 48px;
+}
+.prices__blok-accordion {
+}
+.prices__accordion-basics {
+}
+.prices__accordion-standard {
+}
+.prices__accordion-pro-care {
+}
+.prices__right-side {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.prices__h2-right {
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: right;
+  margin-bottom: 45px;
+}
+.prices__button-container {
+margin-bottom: 35px;
+}
+.prices__button {
+  padding: 11px 37px 11px 29px;
+}
+.prices__image-container {
+  width: 35%;
+}
+
