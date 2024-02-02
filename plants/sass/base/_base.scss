@@ -17,13 +17,13 @@ body {
   font-family: Inter, Verdana, sans-serif;
 }
 h1 {
-  @include font(45px, 700, 111%);
+  @include font(4.5rem, 700, 111%);
   color: $color-service;
 }
 h2 {
   @extend %font-add;
-  @include font(40px, 400, normal);
+  @include font(4rem, 400, normal);
 }
 h3 {
-  @include font(20px, 700, 100%);
+  @include font(2rem, 700, 100%);
 }

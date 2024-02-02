@@ -375,7 +375,7 @@ body {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 4.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: 111%;
@@ -383,14 +383,14 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
@@ -403,12 +403,12 @@ h3 {
 
 .header {
   background: #EDF2EC;
-  padding: 4.2rem 5rem;
+  padding: 42px 50px;
 }
 
 @media (max-width: 768px) {
   .header {
-    padding-top: 3.6rem;
+    padding-top: 36px;
   }
 }
 .header__wrapper {
@@ -438,7 +438,7 @@ h3 {
 }
 
 .nav-link:not(:last-child) {
-  padding-right: 4.7rem;
+  padding-right: 47px;
 }
 
 .nav-link:hover {
@@ -447,11 +447,11 @@ h3 {
 
 .welcome {
   background: #EDF2EC;
-  padding: 5.2rem 0;
+  padding: 52px 0;
 }
 
 .welcome__wrapper {
-  max-width: 124rem;
+  max-width: 1235px;
   margin: 0 auto;
 }
 
@@ -460,13 +460,8 @@ h3 {
   justify-content: space-between;
 }
 
-.welcome__leafs {
-  width: 50%;
-}
-
 .welcome__content {
-  width: 45%;
-  padding-top: 46px;
+  padding: 45px 4px 0 220px;
 }
 
 h1 {
@@ -479,7 +474,6 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 175%;
-  width: 95%;
   margin-bottom: 47px;
 }
 

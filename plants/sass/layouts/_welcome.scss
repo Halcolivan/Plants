@@ -1,21 +1,17 @@
 .welcome {
   background: $color-backgraund;
-  padding: 5.2rem 0;
+  padding: 52px 0;
 }
 .welcome__wrapper {
-  max-width: 124rem;
+  max-width: 1235px;
   margin: 0 auto;
 }
 .welcome__container-2-columns {
   display: flex;
   justify-content: space-between;
 }
-.welcome__leafs {
-  width: 50%;
-}
 .welcome__content {
-  width: 45%;
-  padding-top: 46px;
+  padding: 45px 4px 0 220px;
 }
 h1 {
   margin-bottom: 44px;
@@ -23,7 +19,6 @@ h1 {
 .welcome__text {
   color: $color-text;
   @include font(2rem, 400, 175%);
-  width: 95%;
   margin-bottom: 47px;
 }
 .welcome__button {

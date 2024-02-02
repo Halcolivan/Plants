@@ -1,10 +1,10 @@
 .header {
   background: $color-backgraund;
-  padding: 4.2rem 5rem;
+  padding: 42px 50px;
 }
 @media (max-width: 768px) {
   .header {
-    padding-top: 3.6rem;
+    padding-top: 36px;
   }
 }
 .header__wrapper {
@@ -16,13 +16,9 @@
   display: flex;
   align-items: center
 }
-.header__logo-image {
-}
 .header__logo-title {
   @extend %font-add;
   @include font(1.6rem, 400, normal);
-}
-.header__nav {
 }
 .navigation {
   display: flex;
@@ -32,7 +28,7 @@
   cursor: pointer;
 }
 .nav-link:not(:last-child) {
-  padding-right: 4.7rem;
+  padding-right: 47px;
 }
 .nav-link:hover {
   color: $color-prime;
