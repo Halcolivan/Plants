@@ -339,11 +339,11 @@ template {
   font-display: swap;
   src: local("Inter"), url("../../fonts/Inter-Bold.woff") format("woff"), url("../../fonts/Inter-Bold.woff2") format("woff2");
 }
-.welcome__button:hover, .nav-link:hover {
+.button:hover, .welcome__button:hover, .nav-link:hover {
   transition: color 0.7s;
 }
 
-.welcome__button:hover {
+.button:hover, .welcome__button:hover {
   transition: background-color 0.7s;
 }
 
@@ -527,6 +527,11 @@ h1 {
   line-height: normal;
 }
 
+.button:hover {
+  background: #E06733;
+  color: #ffffff;
+}
+
 .button-gardens {
   padding: 11px 44px 11px 39px;
   margin-right: 34px;
@@ -544,7 +549,7 @@ h1 {
 .service__body {
   display: flex;
   flex-wrap: wrap;
-  gap: 56px 116px;
+  gap: 55px 116px;
 }
 
 .service__item {

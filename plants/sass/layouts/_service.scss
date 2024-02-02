@@ -25,6 +25,12 @@
   font-weight: 400;
   line-height: normal;
 }
+.button:hover {
+  background: $color-prime;
+  @extend %transition-background;
+  color: $color-light;
+  @extend %transition;
+}
 .button-gardens {
   padding: 11px 44px 11px 39px;
   margin-right: 34px;
@@ -39,7 +45,7 @@
 .service__body {
   display: flex;
   flex-wrap: wrap;
-  gap: 56px 116px;
+  gap: 55px 116px;
 }
 .service__item {
   display: flex;
