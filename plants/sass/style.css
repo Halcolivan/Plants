@@ -497,17 +497,18 @@ h1 {
   padding: 40px 0 121px 0;
 }
 
+.service__wrapper {
+  max-width: 1252px;
+  padding: 0 15px 0;
+}
+
 .service__head {
   display: flex;
   justify-content: space-between;
   margin-bottom: 80px;
 }
-.service__head h2 {
-  width: 25%;
-}
 
 .service__buttons {
-  width: 64%;
   padding: 29px 0 0 8px;
 }
 
@@ -587,7 +588,7 @@ h1 {
 
 .about__content {
   max-width: 595px;
-  padding-top: 68px;
+  padding: 68px 0 0 15px;
 }
 .about__content h2 {
   max-width: 421px;
