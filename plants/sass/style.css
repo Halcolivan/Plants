@@ -586,11 +586,11 @@ h1 {
 }
 
 .about__content {
-  width: 50%;
+  max-width: 595px;
   padding-top: 68px;
 }
 .about__content h2 {
-  width: 70%;
+  max-width: 421px;
   color: #E06733;
   margin-bottom: 38px;
 }

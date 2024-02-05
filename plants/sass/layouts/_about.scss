@@ -6,10 +6,10 @@
   justify-content: space-between;
 }
 .about__content {
-  width: 50%;
+  max-width: 595px;
   padding-top: 68px;
   h2 {
-    width: 70%;
+    max-width: 421px;
     color: $color-prime;
     margin-bottom: 38px;
   }
