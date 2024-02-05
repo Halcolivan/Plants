@@ -360,8 +360,12 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, p {
+h1, h2, h3 {
   margin: 0;
+}
+
+p {
+  margin-block: 0;
 }
 
 html {
@@ -611,10 +615,6 @@ h1 {
   justify-content: space-between;
 }
 
-.prices__left-side {
-  width: 63%;
-}
-
 .prices__h2-left {
   font-family: Inter;
   font-weight: 700;
@@ -626,7 +626,6 @@ h1 {
   border: 1px solid #e3e1d5;
   border-radius: 20px;
   padding: 33px 40px;
-  max-width: 332px;
 }
 
 .prices__accordion-container {
@@ -636,7 +635,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px 12px 40px;
-  max-width: 252px;
 }
 
 .prices__accordion-container:not(:last-child) {
@@ -646,16 +644,17 @@ h1 {
 .prices__accordion-title {
   font-size: 20px;
   font-weight: 700;
+  margin-right: 64px;
 }
 
 .prices__right-side {
-  width: 37%;
   display: flex;
   flex-direction: column;
   align-items: end;
 }
 
 .prices__h2-right {
+  max-width: 455px;
   font-family: Inter;
   font-weight: 700;
   line-height: 50px;
@@ -668,11 +667,7 @@ h1 {
 }
 
 .prices__button {
-  padding: 11px 37px 11px 29px;
-}
-
-.prices__image-container {
-  width: 35%;
+  padding: 11px 34px 11px 31px;
 }
 
 .text-colored {
