@@ -451,7 +451,7 @@ h3 {
 }
 
 .welcome__wrapper {
-  max-width: 1235px;
+  max-width: 1242px;
   margin: 0 auto;
 }
 
@@ -461,7 +461,8 @@ h3 {
 }
 
 .welcome__content {
-  padding: 45px 4px 0 220px;
+  padding: 46px 0 0 0;
+  max-width: 559px;
 }
 
 h1 {
@@ -469,6 +470,7 @@ h1 {
 }
 
 .welcome__text {
+  max-width: 549px;
   color: #636060;
   font-size: 2rem;
   font-style: normal;

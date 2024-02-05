@@ -3,7 +3,7 @@
   padding: 52px 0;
 }
 .welcome__wrapper {
-  max-width: 1235px;
+  max-width: 1242px;
   margin: 0 auto;
 }
 .welcome__container-2-columns {
@@ -11,12 +11,14 @@
   justify-content: space-between;
 }
 .welcome__content {
-  padding: 45px 4px 0 220px;
+  padding: 46px 0 0 0;
+  max-width: 559px;
 }
 h1 {
   margin-bottom: 44px;
 }
 .welcome__text {
+  max-width: 549px;
   color: $color-text;
   @include font(2rem, 400, 175%);
   margin-bottom: 47px;
