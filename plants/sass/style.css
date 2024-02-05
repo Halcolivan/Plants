@@ -497,19 +497,17 @@ h1 {
   padding: 40px 0 121px 0;
 }
 
-.service__wrapper {
-  max-width: 1252px;
-  padding: 0 15px 0;
-}
-
 .service__head {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 80px;
+}
+.service__head h2 {
+  max-width: 295px;
+  margin-right: 153px;
 }
 
 .service__buttons {
-  padding: 29px 0 0 8px;
+  padding: 29px 0 0 0;
 }
 
 .button {
@@ -588,7 +586,7 @@ h1 {
 
 .about__content {
   max-width: 595px;
-  padding: 68px 0 0 15px;
+  padding: 68px 0 0 0;
 }
 .about__content h2 {
   max-width: 421px;
@@ -621,39 +619,33 @@ h1 {
   font-family: Inter;
   font-weight: 700;
   line-height: 48px;
-  margin-bottom: 59px;
+  margin-bottom: 60px;
 }
 
 .prices__blok-accordion {
   border: 1px solid #e3e1d5;
   border-radius: 20px;
-  padding: 33px 39px;
-  width: 43%;
+  padding: 33px 40px;
+  max-width: 332px;
 }
 
-.prices__accordion-basics-container {
+.prices__accordion-container {
   border-radius: 20px;
   background: #EDF2EC;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 41px 12px 40px;
-  margin-bottom: 20px;
+  padding: 15px 40px 12px 40px;
+  max-width: 252px;
+}
+
+.prices__accordion-container:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .prices__accordion-title {
   font-size: 20px;
   font-weight: 700;
-}
-
-.prices__accordion-standard-container {
-  border-radius: 20px;
-  background: #EDF2EC;
-}
-
-.prices__accordion-pro-care-container {
-  border-radius: 20px;
-  background: #EDF2EC;
 }
 
 .prices__right-side {
@@ -666,9 +658,9 @@ h1 {
 .prices__h2-right {
   font-family: Inter;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 50px;
   text-align: right;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .prices__button-container {

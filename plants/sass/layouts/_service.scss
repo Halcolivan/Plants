@@ -2,17 +2,16 @@
   background: $color-backgraund;
   padding: 40px 0 121px 0;
 }
-.service__wrapper {
-  max-width: 1252px;
-  padding: 0 15px 0;
-}
 .service__head {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 80px;
+  h2 {
+    max-width: 295px;
+    margin-right: 153px;
+  }
 }
 .service__buttons {
-  padding: 29px 0 0 8px;
+  padding: 29px 0 0 0;
 }
 .button {
   border-radius: 5px;

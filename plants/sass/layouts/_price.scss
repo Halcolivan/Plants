@@ -6,50 +6,35 @@
   justify-content: space-between;
 }
 .prices__left-side {
-  width: 63%;
+  width: 63%;//!!!!!!!!!!!!!!!!!!!!!!!!!!1
 }
 .prices__h2-left {
   font-family: Inter;
   font-weight: 700;
   line-height: 48px;
-  margin-bottom: 59px;
+  margin-bottom: 60px;
 }
 .prices__blok-accordion {
   border: 1px solid #e3e1d5;
   border-radius: 20px;
-  padding: 33px 39px;
-  width: 43%;
+  padding: 33px 40px;
+  max-width: 332px;
 }
-.prices__accordion-basics-container {
+.prices__accordion-container {
   border-radius: 20px;
   background: $color-backgraund;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 41px 12px 40px;
-  // max-width: 170px;
-  margin-bottom: 20px;
+  padding: 15px 40px 12px 40px;
+  max-width: 252px;
+}
+.prices__accordion-container:not(:last-child) {
+  margin-bottom: 32px;
 }
 .prices__accordion-title {
-// margin-right: 10px;
-// color: rgb(0, 0, 0);
-// font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-// line-height: 20px;
-// letter-spacing: 0%;
-// text-align: left;
-}
-.prices__accordion-image {
-
-}
-.prices__accordion-standard-container {
-  border-radius: 20px;
-  background: $color-backgraund;
-}
-.prices__accordion-pro-care-container {
-  border-radius: 20px;
-  background: $color-backgraund;
+  font-size: 20px;
+  font-weight: 700;
 }
 .prices__right-side {
   width: 37%;
@@ -60,9 +45,9 @@ font-weight: 700;
 .prices__h2-right {
   font-family: Inter;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 50px;
   text-align: right;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 .prices__button-container {
   margin-bottom: 35px;
