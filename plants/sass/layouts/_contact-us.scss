@@ -1,3 +1,40 @@
 .contact-us {
   background: $color-backgraund;
 }
+.contact-us__wrapper {
+  display: flex;
+  padding: 50px 0 0 0;
+}
+.contact-us__image {
+  margin-right: 112px;
+  img {
+    display: block;
+  }
+}
+.contact-us__h2 {
+  padding: 10px 0 0 0;
+  font-weight: 700;
+  margin-right: 68px;
+}
+.contact-us__accordion {
+  max-width: 450px;
+  max-height: 50px;
+  display: flex;
+  padding: 14px 35px 17px 20px;
+  margin-top: 98px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #d6e7d2;
+}
+.contact-us__city {
+  margin-right: 338px;
+  color: $color-service;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+.contact-us__image{
+  padding-top: 3px;
+  img {
+    display: block;
+  }
+}
