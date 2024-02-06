@@ -1,5 +1,6 @@
 .welcome {
   background: $color-backgraund;
+  background-position: 50% 50%;
   padding: 52px 0;
 }
 .welcome__wrapper {
@@ -8,6 +9,7 @@
 }
 .welcome__container-2-columns {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .welcome__content {

@@ -1,5 +1,5 @@
 .prices {
-  padding: 40px 0 108px;
+  padding: 40px 0 0 0;
 }
 .prices__wrapper {
   max-width: 1239px;
@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
+  justify-content: space-around;
 }
 .prices__h2-right {
   max-width: 460px;
@@ -61,6 +62,6 @@
   padding: 11px 34px 11px 31px;
   font-weight: 700;
 }
-.prices__image {
-  display: block;
+.prices__image-container {
+  // margin-bottom: 10px;
 }

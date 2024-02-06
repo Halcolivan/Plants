@@ -4,6 +4,7 @@
 }
 .service__head {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 80px;
   h2 {
     max-width: 295px;

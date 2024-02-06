@@ -1,5 +1,5 @@
 .header {
-  background: $color-backgraund;
+  background-color: $color-backgraund;
   padding: 42px 50px;
 }
 @media (max-width: 768px) {
@@ -9,6 +9,7 @@
 }
 .header__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -22,6 +23,7 @@
 }
 .navigation {
   display: flex;
+  flex-wrap: wrap;
 }
 .nav-link {
   @extend %font-add;

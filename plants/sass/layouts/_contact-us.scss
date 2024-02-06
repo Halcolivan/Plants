@@ -2,22 +2,22 @@
   background: $color-backgraund;
 }
 .contact-us__wrapper {
+  max-width: 1252px;
   display: flex;
-  padding: 53px 0 0 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 53px 15px 0;
 }
 .contact-us__image {
-  margin-right: 113px;
   img {
     display: block;
   }
 }
 .contact-us__h2 {
-  padding: 7px 0 0 0;
+  padding: 7px 0 0 45px;
   font-weight: 700;
-  margin-right: 68px;
 }
 .contact-us__accordion {
-  max-width: 450px;
   max-height: 50px;
   display: flex;
   padding: 14px 35px 17px 20px;
