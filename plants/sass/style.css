@@ -581,18 +581,18 @@ h1 {
 
 .contact-us__wrapper {
   display: flex;
-  padding: 50px 0 0 0;
+  padding: 53px 0 0 0;
 }
 
 .contact-us__image {
-  margin-right: 112px;
+  margin-right: 113px;
 }
 .contact-us__image img {
   display: block;
 }
 
 .contact-us__h2 {
-  padding: 10px 0 0 0;
+  padding: 7px 0 0 0;
   font-weight: 700;
   margin-right: 68px;
 }
@@ -602,7 +602,7 @@ h1 {
   max-height: 50px;
   display: flex;
   padding: 14px 35px 17px 20px;
-  margin-top: 98px;
+  margin-top: 95px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background: #d6e7d2;
 }
@@ -610,15 +610,15 @@ h1 {
 .contact-us__city {
   margin-right: 338px;
   color: #717171;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
 
-.contact-us__image {
+.contact-us__accordion-image {
   padding-top: 3px;
 }
-.contact-us__image img {
+.contact-us__accordion-image img {
   display: block;
 }
 
@@ -650,12 +650,21 @@ h1 {
 }
 
 .prices {
-  padding: 40px 0 104px;
+  padding: 40px 0 108px;
+}
+
+.prices__wrapper {
+  max-width: 1239px;
+  margin: 0 auto;
 }
 
 .container-2-columns {
   display: flex;
   justify-content: space-between;
+}
+
+.prices__left-side {
+  padding-left: 8px;
 }
 
 .prices__h2-left {
@@ -697,20 +706,27 @@ h1 {
 }
 
 .prices__h2-right {
-  max-width: 455px;
+  max-width: 460px;
   font-family: Inter, Verdana, sans-serif;
   font-weight: 700;
   line-height: 5rem;
   text-align: right;
   margin-bottom: 40px;
+  padding-right: 8px;
 }
 
 .prices__button-container {
-  margin-bottom: 35px;
+  margin-bottom: 34px;
+  padding-right: 8px;
 }
 
 .prices__button {
   padding: 11px 34px 11px 31px;
+  font-weight: 700;
+}
+
+.prices__image {
+  display: block;
 }
 
 .text-colored {
