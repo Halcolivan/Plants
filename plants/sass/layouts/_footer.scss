@@ -1,27 +1,23 @@
-.footer {
-}
-.container-2-columns {
+.footer__container {
   display: flex;
   align-items: center;
-  // padding: 10px 0 0 0;
+  justify-content: space-between;
+  padding: 40px 0;
 }
 .footer__left-side {
   display: flex;
 }
-.footer__copyright {
-}
-.footer__year {
-}
-.footer__github {
+.footer__left-item {
+  font-size: 20px;
+  line-height: 50px;
+  margin-right: 20px;
 }
 .footer__right-side {
   display: flex;
 }
-.footer__instagram {
-}
-.footer__facebook {
-}
-.footer__twitter {
-}
-.footer__pinterest {
+.footer__right-item {
+  margin-left: 20px;
+  img {
+    display: block;
+  }
 }

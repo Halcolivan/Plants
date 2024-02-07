@@ -368,6 +368,11 @@ p {
   margin-block: 0;
 }
 
+ul {
+  padding-inline: 0;
+  margin-block: 0;
+}
+
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -407,7 +412,7 @@ h3 {
 
 .header {
   background-color: #EDF2EC;
-  padding: 42px 50px;
+  padding: 55px 50px;
 }
 
 @media (max-width: 768px) {
@@ -462,7 +467,7 @@ h3 {
   margin: 0 auto;
 }
 
-.welcome__container-2-columns {
+.welcome__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -629,7 +634,7 @@ h1 {
   padding: 93px 0 91px;
 }
 
-.about__container-2-columns {
+.about__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -654,7 +659,7 @@ h1 {
 }
 
 .prices {
-  padding: 40px 0 0 0;
+  padding: 40px 0 104px 0;
 }
 
 .prices__wrapper {
@@ -662,13 +667,15 @@ h1 {
   margin: 0 auto;
 }
 
-.container-2-columns {
+.prices__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .prices__left-side {
   padding-left: 8px;
+  margin-bottom: 24px;
 }
 
 .prices__h2-left {
@@ -678,13 +685,13 @@ h1 {
   margin-bottom: 60px;
 }
 
-.prices__blok-accordion {
+.prices__accordion-container {
   border: 1px solid #e3e1d5;
   border-radius: 20px;
   padding: 33px 40px;
 }
 
-.prices__accordion-container {
+.prices__accordion-item {
   border-radius: 20px;
   background: #EDF2EC;
   display: flex;
@@ -693,7 +700,7 @@ h1 {
   padding: 15px 40px 12px 40px;
 }
 
-.prices__accordion-container:not(:last-child) {
+.prices__accordion-item:not(:last-child) {
   margin-bottom: 32px;
 }
 
@@ -707,14 +714,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content: space-around;
 }
 
-.prices__h2-right {
-  max-width: 460px;
-  font-family: Inter, Verdana, sans-serif;
+.prices__title-right {
+  font-size: 4rem;
+  font-style: normal;
   font-weight: 700;
   line-height: 5rem;
+  max-width: 460px;
   text-align: right;
   margin-bottom: 40px;
   padding-right: 8px;
@@ -730,17 +737,32 @@ h1 {
   font-weight: 700;
 }
 
-.container-2-columns {
+.footer__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
 }
 
 .footer__left-side {
   display: flex;
 }
 
+.footer__left-item {
+  font-size: 20px;
+  line-height: 50px;
+  margin-right: 20px;
+}
+
 .footer__right-side {
   display: flex;
+}
+
+.footer__right-item {
+  margin-left: 20px;
+}
+.footer__right-item img {
+  display: block;
 }
 
 .text-colored {

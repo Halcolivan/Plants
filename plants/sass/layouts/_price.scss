@@ -1,16 +1,18 @@
 .prices {
-  padding: 40px 0 0 0;
+  padding: 40px 0 104px 0;
 }
 .prices__wrapper {
   max-width: 1239px;
   margin: 0 auto;
 }
-.container-2-columns {
+.prices__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .prices__left-side {
   padding-left: 8px;
+  margin-bottom: 24px;
 }
 .prices__h2-left {
   font-family: Inter, Verdana, sans-serif;
@@ -18,12 +20,12 @@
   line-height: 4.8rem;
   margin-bottom: 60px;
 }
-.prices__blok-accordion {
+.prices__accordion-container {
   border: 1px solid #e3e1d5;
   border-radius: 20px;
   padding: 33px 40px;
 }
-.prices__accordion-container {
+.prices__accordion-item {
   border-radius: 20px;
   background: $color-backgraund;
   display: flex;
@@ -31,7 +33,7 @@
   align-items: center;
   padding: 15px 40px 12px 40px;
 }
-.prices__accordion-container:not(:last-child) {
+.prices__accordion-item:not(:last-child) {
   margin-bottom: 32px;
 }
 .prices__accordion-title {
@@ -43,13 +45,10 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content: space-around;
 }
-.prices__h2-right {
+.prices__title-right {
+  @include font(4rem, 700, 5rem);
   max-width: 460px;
-  font-family: Inter, Verdana, sans-serif;
-  font-weight: 700;
-  line-height: 5rem;
   text-align: right;
   margin-bottom: 40px;
   padding-right: 8px;
@@ -61,7 +60,4 @@
 .prices__button {
   padding: 11px 34px 11px 31px;
   font-weight: 700;
-}
-.prices__image-container {
-  // margin-bottom: 10px;
 }
