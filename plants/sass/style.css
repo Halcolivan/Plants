@@ -347,8 +347,12 @@ template {
   transition: background-color 0.7s;
 }
 
-.nav-link, .header__logo-title, h2 {
+.button, .nav-link, .header__logo-title, h2 {
   font-family: Inika, Verdana, sans-serif;
+}
+
+.prices__h2-left {
+  font-family: Inter, Verdana, sans-serif;
 }
 
 * {
@@ -529,11 +533,11 @@ h1 {
   border: 1px solid #E06733;
   color: #E06733;
   background: transparent;
-  font-family: Inika, Verdana, sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -679,7 +683,6 @@ h1 {
 }
 
 .prices__h2-left {
-  font-family: Inter, Verdana, sans-serif;
   font-weight: 700;
   line-height: 4.8rem;
   margin-bottom: 60px;

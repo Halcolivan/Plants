@@ -19,8 +19,9 @@
   border: 1px solid $color-prime;
   color: $color-prime;
   background: transparent;
-  font-family: Inika, Verdana, sans-serif;
+  @extend %font-add;
   @include font(2rem, 400, normal);
+  cursor: pointer;
 }
 .button:hover {
   background: $color-prime;

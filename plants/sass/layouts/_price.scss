@@ -15,7 +15,7 @@
   margin-bottom: 24px;
 }
 .prices__h2-left {
-  font-family: Inter, Verdana, sans-serif;
+  @extend %font-prim;
   font-weight: 700;
   line-height: 4.8rem;
   margin-bottom: 60px;
