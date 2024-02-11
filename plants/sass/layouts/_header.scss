@@ -1,0 +1,38 @@
+.header {
+  background-color: $color-backgraund;
+  padding: 55px 50px;
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 36px;
+  }
+}
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center
+}
+.header__logo-title {
+  @extend %font-add;
+  @include font(1.6rem, 400, normal);
+}
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-link {
+  @extend %font-add;
+  cursor: pointer;
+}
+.nav-link:not(:last-child) {
+  padding-right: 47px;
+}
+.nav-link:hover {
+  color: $color-prime;
+  @extend %transition;
+}

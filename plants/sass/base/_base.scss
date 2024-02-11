@@ -1,0 +1,36 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+h1, h2, h3 {
+  margin: 0;
+}
+p {
+  margin-block: 0;
+}
+ul {
+  padding-inline: 0;
+  margin-block: 0;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Inter, Verdana, sans-serif;
+}
+h1 {
+  @include font(4.5rem, 700, 111%);
+  color: $color-service;
+}
+h2 {
+  @extend %font-add;
+  @include font(4rem, 400, normal);
+}
+h3 {
+  @include font(2rem, 700, 100%);
+}

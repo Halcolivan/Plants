@@ -1,0 +1,21 @@
+.about {
+  padding: 93px 0 91px;
+}
+.about__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about__content {
+  max-width: 595px;
+  padding: 68px 0 0 0;
+  h2 {
+    max-width: 421px;
+    color: $color-prime;
+    margin-bottom: 38px;
+  }
+}
+.about__text {
+  color: $color-text;
+  @include font(2rem, 400, 150%);
+}
