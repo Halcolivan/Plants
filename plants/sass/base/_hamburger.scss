@@ -1,6 +1,17 @@
 .header__hamburger {
   display: none;
+  width: 40px;
+  height: 24px;
   @include media-mobile {
     display: block;
   }
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hamburger__line {
+  display: block;
+  border: 1px solid rgb(113, 113, 113);
 }

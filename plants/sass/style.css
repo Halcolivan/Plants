@@ -411,11 +411,24 @@ h3 {
 
 .header__hamburger {
   display: none;
+  width: 40px;
+  height: 24px;
 }
 @media (max-width: 380px) {
   .header__hamburger {
     display: block;
   }
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger__line {
+  display: block;
+  border: 1px solid rgb(113, 113, 113);
 }
 
 .wrapper {
@@ -425,14 +438,20 @@ h3 {
 
 .header {
   background-color: #EDF2EC;
-  padding: 55px 50px;
+  padding: 54px 53px 62px 53px;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1222px) {
   .header {
-    padding-top: 36px;
+    padding-top: 47px;
   }
 }
+@media (max-width: 380px) {
+  .header {
+    padding-top: 37px;
+    padding-left: 23px;
+  }
+}
+
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -478,7 +497,12 @@ h3 {
 .welcome {
   background: #EDF2EC;
   background-position: 50% 50%;
-  padding: 52px 0;
+  padding: 48px 0 61px 0;
+}
+@media (max-width: 1222px) {
+  .welcome {
+    padding: 40px 50px 70px;
+  }
 }
 
 .welcome__wrapper {
@@ -488,12 +512,16 @@ h3 {
 
 .welcome__container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 1222px) {
+  .welcome__container {
+    flex-direction: row-reverse;
+  }
 }
 
 .welcome__content {
-  padding: 46px 0 0 0;
+  padding: 42px 0 0 0;
   max-width: 559px;
 }
 
@@ -522,6 +550,20 @@ h1 {
 .welcome__button:hover {
   background: #E06733;
   color: #ffffff;
+}
+
+.welcome__leafs {
+  width: 463px;
+  height: 415px;
+  background-image: url(../../assets/image/welcome__leafs.png);
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1222px) {
+  .welcome__leafs {
+    width: 280px;
+    height: 254px;
+  }
 }
 
 .service {

@@ -1,10 +1,12 @@
 .header {
   background-color: $color-backgraund;
-  padding: 55px 50px;
-}
-@media (max-width: 768px) {
-  .header {
-    padding-top: 36px;
+  padding: 54px 53px 62px 53px;
+  @include media-laptop {
+    padding-top: 47px;
+  }
+  @include media-mobile {
+    padding-top: 37px;
+    padding-left: 23px;
   }
 }
 .header__wrapper {
@@ -15,7 +17,7 @@
 }
 .header__logo {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 .header__logo-title {
   @extend %font-add;
