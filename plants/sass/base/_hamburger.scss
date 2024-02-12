@@ -1,0 +1,6 @@
+.header__hamburger {
+  display: none;
+  @include media-mobile {
+    display: block;
+  }
+}

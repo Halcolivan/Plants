@@ -21,6 +21,11 @@
   @extend %font-add;
   @include font(1.6rem, 400, normal);
 }
+.header__nav {
+  @include media-mobile {
+    display: none;
+  }
+}
 .navigation {
   display: flex;
   flex-wrap: wrap;

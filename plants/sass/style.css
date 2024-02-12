@@ -409,6 +409,15 @@ h3 {
   line-height: 100%;
 }
 
+.header__hamburger {
+  display: none;
+}
+@media (max-width: 380px) {
+  .header__hamburger {
+    display: block;
+  }
+}
+
 .wrapper {
   max-width: 1222px;
   margin: auto;
@@ -441,6 +450,12 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (max-width: 380px) {
+  .header__nav {
+    display: none;
+  }
 }
 
 .navigation {
