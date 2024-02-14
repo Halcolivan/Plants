@@ -3,7 +3,7 @@
   background-position: 50% 50%;
   padding: 48px 0 61px 0;
   @include media-laptop {
-    padding: 40px 50px 70px;
+    padding: 17px 50px 70px 50px;
   }
 }
 .welcome__wrapper {
@@ -20,15 +20,28 @@
 .welcome__content {
   padding: 42px 0 0 0;
   max-width: 559px;
+  @include media-laptop {
+    max-width: 350px;
+    padding: 0;
+  }
 }
-h1 {
+.welcome__h1 {
   margin-bottom: 44px;
+  @include media-laptop {
+    padding-top: 8px;
+    margin-bottom: 30px;
+  }
 }
 .welcome__text {
   max-width: 549px;
   color: $color-text;
   @include font(2rem, 400, 175%);
   margin-bottom: 47px;
+  @include media-laptop {
+    @include font(1.6rem, 400, 2.5rem);
+    padding-left: 5px;
+    margin-bottom: 35px;
+  }
 }
 .welcome__button {
   padding: 11px 26px;
@@ -50,7 +63,7 @@ h1 {
   background-size: cover;
   background-position: center;
   @include media-laptop {
-    width: 280px;
-    height: 254px;
+    width: 284px;
+    height: 263px;
   }
 }

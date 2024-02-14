@@ -2,7 +2,7 @@
   background-color: $color-backgraund;
   padding: 54px 53px 62px 53px;
   @include media-laptop {
-    padding-top: 47px;
+    padding: 49px 51px 62px 48px;
   }
   @include media-mobile {
     padding-top: 37px;
@@ -18,6 +18,9 @@
 .header__logo {
   display: flex;
   align-items: center;
+}
+.logo-image {
+  display: block
 }
 .header__logo-title {
   @extend %font-add;

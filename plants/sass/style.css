@@ -394,6 +394,14 @@ h1 {
   line-height: 111%;
   color: #717171;
 }
+@media (max-width: 1222px) {
+  h1 {
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+}
 
 h2 {
   font-size: 4rem;
@@ -442,7 +450,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .header {
-    padding-top: 47px;
+    padding: 49px 51px 62px 48px;
   }
 }
 @media (max-width: 380px) {
@@ -462,6 +470,10 @@ h3 {
 .header__logo {
   display: flex;
   align-items: center;
+}
+
+.logo-image {
+  display: block;
 }
 
 .header__logo-title {
@@ -501,7 +513,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .welcome {
-    padding: 40px 50px 70px;
+    padding: 17px 50px 70px 50px;
   }
 }
 
@@ -524,9 +536,21 @@ h3 {
   padding: 42px 0 0 0;
   max-width: 559px;
 }
+@media (max-width: 1222px) {
+  .welcome__content {
+    max-width: 350px;
+    padding: 0;
+  }
+}
 
-h1 {
+.welcome__h1 {
   margin-bottom: 44px;
+}
+@media (max-width: 1222px) {
+  .welcome__h1 {
+    padding-top: 8px;
+    margin-bottom: 30px;
+  }
 }
 
 .welcome__text {
@@ -537,6 +561,16 @@ h1 {
   font-weight: 400;
   line-height: 175%;
   margin-bottom: 47px;
+}
+@media (max-width: 1222px) {
+  .welcome__text {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    padding-left: 5px;
+    margin-bottom: 35px;
+  }
 }
 
 .welcome__button {
@@ -561,8 +595,8 @@ h1 {
 }
 @media (max-width: 1222px) {
   .welcome__leafs {
-    width: 280px;
-    height: 254px;
+    width: 284px;
+    height: 263px;
   }
 }
 
