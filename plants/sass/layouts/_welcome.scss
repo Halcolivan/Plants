@@ -31,6 +31,9 @@
     padding-top: 8px;
     margin-bottom: 30px;
   }
+  @include media-mobile {
+    padding-top: 0;
+  }
 }
 .welcome__text {
   max-width: 549px;

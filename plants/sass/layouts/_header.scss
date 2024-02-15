@@ -5,8 +5,7 @@
     padding: 49px 51px 62px 48px;
   }
   @include media-mobile {
-    padding-top: 37px;
-    padding-left: 23px;
+    padding: 31px 25px 44px 23px;
   }
 }
 .header__wrapper {
@@ -19,12 +18,13 @@
   display: flex;
   align-items: center;
 }
-.logo-image {
-  display: block
-}
 .header__logo-title {
   @extend %font-add;
   @include font(1.6rem, 400, normal);
+  
+  @include media-mobile {
+    padding-top: 9px;
+  }
 }
 .header__nav {
   @include media-mobile {

@@ -29,6 +29,9 @@ h1 {
   @include media-laptop {
     @include font(3.5rem, 700, 5rem)
   }
+  @include media-mobile {
+    @include font(2.5rem, 700, 3.5rem)
+  }
 }
 h2 {
   @extend %font-add;
