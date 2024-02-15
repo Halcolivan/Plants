@@ -1,18 +1,31 @@
 .service {
   background: $color-backgraund;
-  padding: 40px 0 121px 0;
+  padding: 40px 15px 121px;
+  @include media-laptop {
+    padding: 60px 50px 121px;
+  }
 }
 .service__head {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 80px;
-  h2 {
-    max-width: 295px;
-    margin-right: 153px;
+  @include media-laptop {
+    margin-bottom: 41px;
+  }
+}
+.service__h2 {
+  max-width: 295px;
+  margin-right: 153px;
+  @include media-laptop {
+    margin-right: 0;
+    margin-bottom: 42px;
   }
 }
 .service__buttons {
   padding: 29px 0 0 0;
+  @include media-laptop {
+    padding: 0;
+  }
 }
 .button {
   border-radius: 5px;
@@ -48,10 +61,22 @@
 .service__item {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
-.service__image {
-  display: block;
+.service__image-1 {
+  background-image: url(../../assets/image/service__first.png);
+  @include images(329px, 350px);
+  @include media-laptop {
+    background-image: url(../../assets/image/service__first-768.png);
+    @include images(280px, 350px);
+  }
+}
+.service__image-2 {
+  background-image: url(../../assets/image/service__second.png);
+  @include images(329px, 350px);
+  @include media-laptop {
+    background-image: url(../../assets/image/service__second-768.png);
+    @include images(280px, 350px);
+  }
 }
 .service__container {
   display: flex;
@@ -59,7 +84,13 @@
   align-items: center;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #e3e1d5;
-  padding: 9px 32px 35px 29px;
+  width: 329px;
+  height: 100px;
+  padding-top: 9px;
+  @include media-laptop {
+    width: 280px;
+    height: 100px;
+  }
 }
 .service__item-title {
   color: $color-prime;

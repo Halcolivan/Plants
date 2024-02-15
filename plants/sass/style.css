@@ -666,7 +666,12 @@ h3 {
 
 .service {
   background: #EDF2EC;
-  padding: 40px 0 121px 0;
+  padding: 40px 15px 121px;
+}
+@media (max-width: 1222px) {
+  .service {
+    padding: 60px 50px 121px;
+  }
 }
 
 .service__head {
@@ -674,13 +679,30 @@ h3 {
   flex-wrap: wrap;
   margin-bottom: 80px;
 }
-.service__head h2 {
+@media (max-width: 1222px) {
+  .service__head {
+    margin-bottom: 41px;
+  }
+}
+
+.service__h2 {
   max-width: 295px;
   margin-right: 153px;
+}
+@media (max-width: 1222px) {
+  .service__h2 {
+    margin-right: 0;
+    margin-bottom: 42px;
+  }
 }
 
 .service__buttons {
   padding: 29px 0 0 0;
+}
+@media (max-width: 1222px) {
+  .service__buttons {
+    padding: 0;
+  }
 }
 
 .button {
@@ -723,11 +745,40 @@ h3 {
 .service__item {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.service__image {
-  display: block;
+.service__image-1 {
+  background-image: url(../../assets/image/service__first.png);
+  width: 329px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1222px) {
+  .service__image-1 {
+    background-image: url(../../assets/image/service__first-768.png);
+    width: 280px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.service__image-2 {
+  background-image: url(../../assets/image/service__second.png);
+  width: 329px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1222px) {
+  .service__image-2 {
+    background-image: url(../../assets/image/service__second-768.png);
+    width: 280px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .service__container {
@@ -736,7 +787,15 @@ h3 {
   align-items: center;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #e3e1d5;
-  padding: 9px 32px 35px 29px;
+  width: 329px;
+  height: 100px;
+  padding-top: 9px;
+}
+@media (max-width: 1222px) {
+  .service__container {
+    width: 280px;
+    height: 100px;
+  }
 }
 
 .service__item-title {
