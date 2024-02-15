@@ -19,3 +19,8 @@
   color: $color-text;
   @include font(2rem, 400, 150%);
 }
+.about__image {
+  @include media-laptop {
+    display: none;
+  }
+}

@@ -3,7 +3,10 @@
   background-position: 50% 50%;
   padding: 48px 0 61px 0;
   @include media-laptop {
-    padding: 17px 50px 70px 50px;
+    padding: 17px 50px 70px;
+  }
+  @include media-mobile {
+    padding: 17px 25px 24px;
   }
 }
 .welcome__wrapper {
@@ -16,6 +19,9 @@
   @include media-laptop {
     flex-direction: row-reverse;
   }
+  @include media-tablet {
+    flex-wrap: wrap;
+  }
 }
 .welcome__content {
   padding: 42px 0 0 0;
@@ -24,6 +30,8 @@
     max-width: 350px;
     padding: 0;
   }
+  @include media-mobile {
+  }
 }
 .welcome__h1 {
   margin-bottom: 44px;
@@ -31,8 +39,12 @@
     padding-top: 8px;
     margin-bottom: 30px;
   }
+  @include media-tablet {
+    padding-top: 4px;
+  }
   @include media-mobile {
     padding-top: 0;
+    margin-bottom: 20px;
   }
 }
 .welcome__text {
@@ -45,6 +57,10 @@
     padding-left: 5px;
     margin-bottom: 35px;
   }
+  @include media-mobile {
+    padding: 0;
+    margin-bottom: 26px;
+  }
 }
 .welcome__button {
   padding: 11px 26px;
@@ -52,6 +68,10 @@
   border-radius: 10px;
   border: 2px solid $color-prime;
   cursor: pointer;
+  @include media-mobile {
+    @include font(1rem, 400, 2rem);
+    padding: 5px 16px;
+  }
 }
 .welcome__button:hover {
   background: $color-prime;
@@ -68,5 +88,8 @@
   @include media-laptop {
     width: 284px;
     height: 263px;
+  }
+  @include media-mobile {
+    display: none;
   }
 }

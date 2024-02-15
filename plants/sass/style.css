@@ -521,7 +521,12 @@ h3 {
 }
 @media (max-width: 1222px) {
   .welcome {
-    padding: 17px 50px 70px 50px;
+    padding: 17px 50px 70px;
+  }
+}
+@media (max-width: 380px) {
+  .welcome {
+    padding: 17px 25px 24px;
   }
 }
 
@@ -539,6 +544,11 @@ h3 {
     flex-direction: row-reverse;
   }
 }
+@media (max-width: 768px) {
+  .welcome__container {
+    flex-wrap: wrap;
+  }
+}
 
 .welcome__content {
   padding: 42px 0 0 0;
@@ -550,7 +560,6 @@ h3 {
     padding: 0;
   }
 }
-
 .welcome__h1 {
   margin-bottom: 44px;
 }
@@ -560,9 +569,15 @@ h3 {
     margin-bottom: 30px;
   }
 }
+@media (max-width: 768px) {
+  .welcome__h1 {
+    padding-top: 4px;
+  }
+}
 @media (max-width: 380px) {
   .welcome__h1 {
     padding-top: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -585,6 +600,12 @@ h3 {
     margin-bottom: 35px;
   }
 }
+@media (max-width: 380px) {
+  .welcome__text {
+    padding: 0;
+    margin-bottom: 26px;
+  }
+}
 
 .welcome__button {
   padding: 11px 26px;
@@ -592,6 +613,15 @@ h3 {
   border-radius: 10px;
   border: 2px solid #E06733;
   cursor: pointer;
+}
+@media (max-width: 380px) {
+  .welcome__button {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    padding: 5px 16px;
+  }
 }
 
 .welcome__button:hover {
@@ -610,6 +640,11 @@ h3 {
   .welcome__leafs {
     width: 284px;
     height: 263px;
+  }
+}
+@media (max-width: 380px) {
+  .welcome__leafs {
+    display: none;
   }
 }
 
@@ -708,6 +743,11 @@ h3 {
 .contact-us__image img {
   display: block;
 }
+@media (max-width: 1222px) {
+  .contact-us__image {
+    display: none;
+  }
+}
 
 .contact-us__h2 {
   padding: 7px 0 0 45px;
@@ -721,6 +761,11 @@ h3 {
   margin-top: 95px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background: #d6e7d2;
+}
+@media (max-width: 1222px) {
+  .contact-us__accordion {
+    display: none;
+  }
 }
 
 .contact-us__city {
@@ -764,6 +809,12 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+@media (max-width: 1222px) {
+  .about__image {
+    display: none;
+  }
 }
 
 .prices {
@@ -846,6 +897,7 @@ h3 {
 
 .footer__container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 40px 0;
