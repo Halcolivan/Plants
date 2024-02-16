@@ -2,7 +2,7 @@
   background: $color-backgraund;
   padding: 40px 15px 121px;
   @include media-laptop {
-    padding: 60px 50px 121px;
+    padding: 60px 50px 71px;
   }
 }
 .service__head {
@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   margin-bottom: 80px;
   @include media-laptop {
-    margin-bottom: 41px;
+    margin-bottom: 40px;
   }
 }
 .service__h2 {
@@ -56,7 +56,10 @@
 .service__body {
   display: flex;
   flex-wrap: wrap;
-  gap: 55px 116px;
+  gap: 55px 117px;
+  @include media-laptop {
+    gap: 38px 107px;
+  }
 }
 .service__item {
   display: flex;
@@ -78,6 +81,38 @@
     @include images(280px, 350px);
   }
 }
+.service__image-3 {
+  background-image: url(../../assets/image/service__third.png);
+  @include images(329px, 350px);
+  @include media-laptop {
+    background-image: url(../../assets/image/service__third-768.png);
+    @include images(280px, 350px);
+  }
+}
+.service__image-4 {
+  background-image: url(../../assets/image/service__fourth.png);
+  @include images(329px, 350px);
+  @include media-laptop {
+    background-image: url(../../assets/image/service__fourth-768.png);
+    @include images(280px, 350px);
+  }
+}
+.service__image-5 {
+  background-image: url(../../assets/image/service__fifth.png);
+  @include images(329px, 350px);
+  @include media-laptop {
+    background-image: url(../../assets/image/service__fifth-768.png);
+    @include images(280px, 350px);
+  }
+}
+.service__image-6 {
+  background-image: url(../../assets/image/service__sixth.png);
+  @include images(329px, 350px);
+  @include media-laptop {
+    background-image: url(../../assets/image/service__sixth-768.png);
+    @include images(280px, 350px);
+  }
+}
 .service__container {
   display: flex;
   flex-direction: column;
@@ -95,4 +130,10 @@
 .service__item-title {
   color: $color-prime;
   margin-bottom: 15px;
+}
+.service__item-text {
+  @include media-laptop {
+    width: 201px;
+    text-align: center;
+  }
 }
