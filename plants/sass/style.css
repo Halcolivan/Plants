@@ -673,6 +673,11 @@ h3 {
     padding: 60px 50px 71px;
   }
 }
+@media (max-width: 380px) {
+  .service {
+    padding: 30px 25px 27px;
+  }
+}
 
 .service__head {
   display: flex;
@@ -693,6 +698,12 @@ h3 {
   .service__h2 {
     margin-right: 0;
     margin-bottom: 42px;
+  }
+}
+@media (max-width: 380px) {
+  .service__h2 {
+    max-width: 195px;
+    margin-bottom: 38px;
   }
 }
 
@@ -716,6 +727,14 @@ h3 {
   line-height: normal;
   cursor: pointer;
 }
+@media (max-width: 380px) {
+  .button {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+}
 
 .button:hover {
   background: #E06733;
@@ -726,14 +745,32 @@ h3 {
   padding: 11px 44px 11px 39px;
   margin-right: 34px;
 }
+@media (max-width: 380px) {
+  .button-gardens {
+    padding: 7px 32px 6px 31px;
+    margin-right: 5px;
+    margin-bottom: 9px;
+  }
+}
 
 .button-lawn {
   padding: 11px 54px 11px 53px;
   margin-right: 33px;
 }
+@media (max-width: 380px) {
+  .button-lawn {
+    padding: 7px 40px 6px 40px;
+    margin-right: 0;
+  }
+}
 
 .button-planting {
   padding: 11px 43px 11px 39px;
+}
+@media (max-width: 380px) {
+  .button-planting {
+    padding: 7px 30px 6px 31px;
+  }
 }
 
 .service__body {
@@ -744,6 +781,12 @@ h3 {
 @media (max-width: 1222px) {
   .service__body {
     gap: 38px 107px;
+  }
+}
+@media (max-width: 380px) {
+  .service__body {
+    justify-content: center;
+    gap: 34px;
   }
 }
 

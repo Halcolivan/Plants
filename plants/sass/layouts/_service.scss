@@ -4,6 +4,9 @@
   @include media-laptop {
     padding: 60px 50px 71px;
   }
+  @include media-mobile {
+    padding: 30px 25px 27px;
+  }
 }
 .service__head {
   display: flex;
@@ -20,6 +23,10 @@
     margin-right: 0;
     margin-bottom: 42px;
   }
+  @include media-mobile {
+    max-width: 195px;
+    margin-bottom: 38px;
+  }
 }
 .service__buttons {
   padding: 29px 0 0 0;
@@ -35,6 +42,9 @@
   @extend %font-add;
   @include font(2rem, 400, normal);
   cursor: pointer;
+  @include media-mobile {
+    @include font(1.5rem, 400, 2rem);
+  }
 }
 .button:hover {
   background: $color-prime;
@@ -45,13 +55,25 @@
 .button-gardens {
   padding: 11px 44px 11px 39px;
   margin-right: 34px;
+  @include media-mobile {
+    padding: 7px 32px 6px 31px;
+    margin-right: 5px;
+    margin-bottom: 9px;
+  }
 }
 .button-lawn {
   padding: 11px 54px 11px 53px;
   margin-right: 33px;
+  @include media-mobile {
+    padding: 7px 40px 6px 40px;
+    margin-right: 0;
+  }
 }
 .button-planting {
   padding: 11px 43px 11px 39px;
+  @include media-mobile {
+    padding: 7px 30px 6px 31px;
+  }
 }
 .service__body {
   display: flex;
@@ -59,6 +81,10 @@
   gap: 55px 117px;
   @include media-laptop {
     gap: 38px 107px;
+  }
+  @include media-mobile {
+    justify-content: center;
+    gap: 34px;
   }
 }
 .service__item {
