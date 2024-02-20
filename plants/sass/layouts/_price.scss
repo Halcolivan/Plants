@@ -14,8 +14,14 @@
 .prices__container {
   display: flex;
   justify-content: space-between;
+
   @include media-mobile {
     display: block;
+  }
+}
+@media (max-width: 720px) {
+  .prices__container {
+    flex-wrap: wrap;
   }
 }
 .prices__left-side {

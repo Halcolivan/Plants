@@ -1024,6 +1024,11 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
+@media (max-width: 768px) {
+  .contact-us__city {
+    margin-right: 230px;
+  }
+}
 @media (max-width: 380px) {
   .contact-us__city {
     margin-right: 200px;
@@ -1182,6 +1187,11 @@ h3 {
   }
 }
 
+@media (max-width: 720px) {
+  .prices__container {
+    flex-wrap: wrap;
+  }
+}
 .prices__left-side {
   padding-left: 8px;
   margin-bottom: 24px;
@@ -1379,14 +1389,35 @@ h3 {
 
 .footer__container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 40px 15px;
+}
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .footer__container {
+    padding-top: 7px;
+  }
 }
 
 .footer__left-side {
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer__left-side {
+    margin-left: 16px;
+    margin-bottom: 53px;
+  }
+}
+@media (max-width: 380px) {
+  .footer__left-side {
+    margin-bottom: 39px;
+  }
 }
 
 .footer__left-item {
@@ -1397,6 +1428,11 @@ h3 {
 
 .footer__right-side {
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer__right-side {
+    margin-right: 21px;
+  }
 }
 
 .footer__right-item {
