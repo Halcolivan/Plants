@@ -14,9 +14,6 @@
 .prices__container {
   display: flex;
   justify-content: space-between;
-  @include media-laptop {
-    flex-wrap: wrap;
-  }
   @include media-mobile {
     display: block;
   }
