@@ -309,6 +309,29 @@ template {
 
 * {
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin-block: 0;
+}
+
+ul {
+  padding-inline: 0;
+  margin-block: 0;
 }
 
 @font-face {
@@ -355,31 +378,8 @@ template {
   font-family: Inter, Verdana, sans-serif;
 }
 
-* {
-  list-style: none;
-  text-decoration: none;
-}
-
-a {
-  color: inherit;
-}
-
-h1, h2, h3 {
-  margin: 0;
-}
-
-p {
-  margin-block: 0;
-}
-
-ul {
-  padding-inline: 0;
-  margin-block: 0;
-}
-
 html {
   font-size: 10px;
-  scroll-behavior: smooth;
 }
 
 body {
