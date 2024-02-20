@@ -1,10 +1,11 @@
 .header {
   background-color: $color-backgraund;
-  padding: 55px 50px;
-}
-@media (max-width: 768px) {
-  .header {
-    padding-top: 36px;
+  padding: 55px 53px 62px 53px;
+  @include media-laptop {
+    padding: 49px 51px 62px 48px;
+  }
+  @include media-mobile {
+    padding: 31px 25px 44px 23px;
   }
 }
 .header__wrapper {
@@ -15,11 +16,20 @@
 }
 .header__logo {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 .header__logo-title {
   @extend %font-add;
   @include font(1.6rem, 400, normal);
+  
+  @include media-mobile {
+    padding-top: 9px;
+  }
+}
+.header__nav {
+  @include media-mobile {
+    display: none;
+  }
 }
 .navigation {
   display: flex;
