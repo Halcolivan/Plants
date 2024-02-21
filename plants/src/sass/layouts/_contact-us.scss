@@ -19,7 +19,7 @@
   }
 }
 .contact-us__image {
-  background-image: url(../../assets/image/contact-us__woman.png);
+  background-image: url(../../src/assets/image/contact-us__woman.png);
   @include images(400px, 496px);
   img {
     display: block;
@@ -82,7 +82,7 @@
   display: none;
   @include media-laptop {
     display: block;
-    background-image: url(../../assets/image/contact-us__woman.png);
+    background-image: url(../../src/assets/image/contact-us__woman.png);
     @include images(200px, 248px);
     margin-left: 20px;
   }
