@@ -65,6 +65,9 @@
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
+  @include media-tablet {
+    margin-right: 230px;
+  }
   @include media-mobile {
     margin-right: 200px;
   }
