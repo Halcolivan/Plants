@@ -455,7 +455,7 @@ h3 {
 .hamburger {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 7px;
 }
 
 .hamburger__line {
@@ -1024,11 +1024,6 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
-@media (max-width: 768px) {
-  .contact-us__city {
-    margin-right: 230px;
-  }
-}
 @media (max-width: 380px) {
   .contact-us__city {
     margin-right: 200px;
@@ -1391,7 +1386,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 15px;
+  padding: 40px 0;
+}
+@media (max-width: 1222px) {
+  .footer__container {
+    padding: 40px 15px;
+  }
 }
 @media (max-width: 768px) {
   .footer__container {
