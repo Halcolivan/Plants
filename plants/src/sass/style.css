@@ -648,7 +648,7 @@ h3 {
 .welcome__leafs {
   width: 463px;
   height: 415px;
-  background-image: url(../../assets/image/welcome__leafs.png);
+  background-image: url(../../src/assets/image/welcome__leafs.png);
   background-size: cover;
   background-position: center;
 }
@@ -796,7 +796,7 @@ h3 {
 }
 
 .service__image-1 {
-  background-image: url(../../assets/image/service__first.png);
+  background-image: url(../../src/assets/image/service__first.png);
   width: 329px;
   height: 350px;
   background-size: cover;
@@ -804,7 +804,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .service__image-1 {
-    background-image: url(../../assets/image/service__first-768.png);
+    background-image: url(../../src/assets/image/service__first-768.png);
     width: 280px;
     height: 350px;
     background-size: cover;
@@ -813,7 +813,7 @@ h3 {
 }
 
 .service__image-2 {
-  background-image: url(../../assets/image/service__second.png);
+  background-image: url(../../src/assets/image/service__second.png);
   width: 329px;
   height: 350px;
   background-size: cover;
@@ -821,7 +821,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .service__image-2 {
-    background-image: url(../../assets/image/service__second-768.png);
+    background-image: url(../../src/assets/image/service__second-768.png);
     width: 280px;
     height: 350px;
     background-size: cover;
@@ -830,7 +830,7 @@ h3 {
 }
 
 .service__image-3 {
-  background-image: url(../../assets/image/service__third.png);
+  background-image: url(../../src/assets/image/service__third.png);
   width: 329px;
   height: 350px;
   background-size: cover;
@@ -838,7 +838,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .service__image-3 {
-    background-image: url(../../assets/image/service__third-768.png);
+    background-image: url(../../src/assets/image/service__third-768.png);
     width: 280px;
     height: 350px;
     background-size: cover;
@@ -847,7 +847,7 @@ h3 {
 }
 
 .service__image-4 {
-  background-image: url(../../assets/image/service__fourth.png);
+  background-image: url(../../src/assets/image/service__fourth.png);
   width: 329px;
   height: 350px;
   background-size: cover;
@@ -855,7 +855,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .service__image-4 {
-    background-image: url(../../assets/image/service__fourth-768.png);
+    background-image: url(../../src/assets/image/service__fourth-768.png);
     width: 280px;
     height: 350px;
     background-size: cover;
@@ -864,7 +864,7 @@ h3 {
 }
 
 .service__image-5 {
-  background-image: url(../../assets/image/service__fifth.png);
+  background-image: url(../../src/assets/image/service__fifth.png);
   width: 329px;
   height: 350px;
   background-size: cover;
@@ -872,7 +872,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .service__image-5 {
-    background-image: url(../../assets/image/service__fifth-768.png);
+    background-image: url(../../src/assets/image/service__fifth-768.png);
     width: 280px;
     height: 350px;
     background-size: cover;
@@ -881,7 +881,7 @@ h3 {
 }
 
 .service__image-6 {
-  background-image: url(../../assets/image/service__sixth.png);
+  background-image: url(../../src/assets/image/service__sixth.png);
   width: 329px;
   height: 350px;
   background-size: cover;
@@ -889,7 +889,7 @@ h3 {
 }
 @media (max-width: 1222px) {
   .service__image-6 {
-    background-image: url(../../assets/image/service__sixth-768.png);
+    background-image: url(../../src/assets/image/service__sixth-768.png);
     width: 280px;
     height: 350px;
     background-size: cover;
@@ -955,7 +955,7 @@ h3 {
 }
 
 .contact-us__image {
-  background-image: url(../../assets/image/contact-us__woman.png);
+  background-image: url(../../src/assets/image/contact-us__woman.png);
   width: 400px;
   height: 496px;
   background-size: cover;
@@ -1043,7 +1043,7 @@ h3 {
 @media (max-width: 1222px) {
   .contact-us__image-768 {
     display: block;
-    background-image: url(../../assets/image/contact-us__woman.png);
+    background-image: url(../../src/assets/image/contact-us__woman.png);
     width: 200px;
     height: 248px;
     background-size: cover;
@@ -1135,7 +1135,7 @@ h3 {
 .about__image {
   width: 464px;
   height: 479px;
-  background-image: url(../../assets/image/about__houseplant.png);
+  background-image: url(../../src/assets/image/about__houseplant.png);
   background-size: cover;
   background-position: center;
 }
