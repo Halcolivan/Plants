@@ -1024,6 +1024,11 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
+@media (max-width: 768px) {
+  .contact-us__city {
+    margin-right: 240px;
+  }
+}
 @media (max-width: 380px) {
   .contact-us__city {
     margin-right: 200px;
