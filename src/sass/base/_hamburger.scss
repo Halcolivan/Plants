@@ -1,5 +1,5 @@
-@use '../abstracts/constants';
-@use '../abstracts/mixins';
+@use "../abstracts/constants";
+@use "../abstracts/mixins";
 
 .hamburger__menu {
   display: none;
@@ -27,14 +27,11 @@
 }
 .hamburger__item a {
   text-decoration: none;
-  color: rgb(1,2,1);
+  color: rgb(1, 2, 1);
 }
 .hamburger__list.active {
   transform: translateX(0%);
 }
-
-
-
 
 .hamburger {
   display: none;

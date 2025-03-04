@@ -70,9 +70,6 @@
   @media (max-width: 500px) {
     margin-right: 240px;
   }
-  // @include mixins.media-tablet {
-  //   // margin-right: 240px;
-  // }
   @include mixins.media-mobile {
     margin-right: 200px;
   }
