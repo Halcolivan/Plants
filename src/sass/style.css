@@ -335,11 +335,11 @@ ul {
 }
 
 .button-text, .nav-link {
-  transition: color 0.9s;
+  transition: color 0.5s;
 }
 
 .welcome__button, .button {
-  transition: background-color 0.9s;
+  transition: background-color 0.5s;
 }
 
 .button, .header__logo-title, .nav-link, h2 {
