@@ -1,0 +1,36 @@
+@use "../abstracts/mixins";
+@use "../abstracts/constants";
+@use "../abstracts/placeholders";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  @extend %font-prim;
+}
+
+h1 {
+  @include mixins.font(4.5rem, 700, 111%);
+  color: constants.$color-service;
+  @include mixins.media-laptop {
+    @include mixins.font(3.5rem, 700, 5rem);
+  }
+  @include mixins.media-mobile {
+    @include mixins.font(2.5rem, 700, 3.5rem);
+  }
+}
+h2 {
+  @extend %font-add;
+  @include mixins.font(4rem, 400, normal);
+  @include mixins.media-laptop {
+    @include mixins.font(3.5rem, 400, 4.6rem);
+  }
+  @include mixins.media-mobile {
+    @include mixins.font(2.5rem, 400, 3.3rem);
+  }
+}
+h3 {
+  @include mixins.font(2rem, 700, 100%);
+}

@@ -1,0 +1,20 @@
+@use './base/normolize';
+
+@use './base/base';
+@use './base/fonts';
+@use './base/hamburger';
+
+
+// @use './abstract/mixins';
+// @use './abstract/constants';
+// @use './abstract/placeholders';
+
+@use './layouts/about';
+@use './layouts/contact-us';
+@use './layouts/footer';
+@use './layouts/header';
+@use './layouts/price';
+@use './layouts/service';
+@use './layouts/welcome';
+@use './layouts/wrapper';
+
