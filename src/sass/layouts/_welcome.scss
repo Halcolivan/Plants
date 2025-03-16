@@ -83,7 +83,7 @@
   color: constants.$color-light;
 }
 .button-text {
-  @extend %transition; //плавная смена цвета текста внутри кнопки
+  @extend %transition;
 }
 .welcome__leafs {
   width: 463px;
