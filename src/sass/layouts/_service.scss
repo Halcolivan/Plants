@@ -32,30 +32,23 @@
     margin-bottom: 38px;
   }
 }
-.service__buttons {
+.service__buttons-container {
   padding: 29px 0 0 0;
   @include mixins.media-laptop {
     padding: 0;
   }
 }
-.button {
+.button__service {
   border-radius: 5px;
   border: 1px solid constants.$color-prime;
   color: constants.$color-prime;
-  background: transparent;
-  @extend %transition-background;
   @extend %font-add;
   @include mixins.font(2rem, 400, normal);
-  cursor: pointer;
   @include mixins.media-mobile {
     @include mixins.font(1.5rem, 400, 2rem);
   }
 }
-.button:hover {
-  background: constants.$color-prime;
-  color: constants.$color-light;
-}
-.button-gardens {
+.button__gardens {
   padding: 11px 44px 11px 39px;
   margin-right: 34px;
   @include mixins.media-mobile {
@@ -64,7 +57,7 @@
     margin-bottom: 9px;
   }
 }
-.button-lawn {
+.button__lawn {
   padding: 11px 54px 11px 53px;
   margin-right: 33px;
   @include mixins.media-mobile {
@@ -72,7 +65,7 @@
     margin-right: 0;
   }
 }
-.button-planting {
+.button__planting {
   padding: 11px 43px 11px 39px;
   @include mixins.media-mobile {
     padding: 7px 30px 6px 31px;

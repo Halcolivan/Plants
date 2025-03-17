@@ -25,3 +25,30 @@ document.addEventListener("click", (event) => {
     hamburger__menu.classList.remove("active"); //меню плавно убирать
   }
 });
+// =====================================================================
+//тренеруюсь по видео
+//=========================================
+window.onload = function () {
+  //после загрузки всей страницы выполнится код в {}
+  // console.log("Hello, Oleg!");
+
+  addServiceButtonsClickHandler();
+};
+
+const addServiceButtonsClickHandler = () => {
+  //какие действия выполняются при клике по кнопкам в блоке service__buttons
+  document.querySelector(".service__buttons").addEventListener("click", (e) => {
+    // console.log(e); //для проверки куда именно кликнул, смотреть в консоли
+    if (e.target.classList.contains("button")) {
+      //будем обрабатывать событие по клику только если мы нажали на button
+      let clickedButton = e.target; //для удобства
+      removeSelectedButtons();
+    }
+  });
+};
+
+const removeSelectedButtons = () => {
+  let buttons = document.querySelectorAll(".service__buttons .button") //выберет все button внутри блока service__buttons
+  // console.log(buttons);//проверочка
+  // buttons.forEach(button => )
+};

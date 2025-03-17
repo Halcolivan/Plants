@@ -157,12 +157,17 @@
     margin: 0 auto 30px;
   }
 }
-.prices__button {
+.button__prices {
+  @include mixins.font(2rem, 700, normal);
   padding: 11px 34px 11px 31px;
-  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid constants.$color-prime;
+  color: constants.$color-prime;
   @include mixins.media-mobile {
     padding: 7px 26px 6px 23px;
+    @include mixins.font(1.5rem, 700, 2rem);
   }
+  @extend %font-add;
 }
 .prices__image-container {
   @include mixins.media-mobile {

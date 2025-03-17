@@ -66,21 +66,14 @@
     margin-bottom: 26px;
   }
 }
-.welcome__button {
+.button__welcome {
   padding: 11px 26px;
-  background: transparent;
   border-radius: 10px;
   border: 2px solid constants.$color-prime;
-  cursor: pointer;
-  @extend %transition-background;
   @include mixins.media-mobile {
     @include mixins.font(1rem, 400, 2rem);
     padding: 5px 16px;
   }
-}
-.welcome__button:hover {
-  background: constants.$color-prime;
-  color: constants.$color-light;
 }
 .button-text {
   @extend %transition;

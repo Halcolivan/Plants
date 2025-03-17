@@ -1,0 +1,17 @@
+@use "../abstracts/placeholders";
+@use "../abstracts/constants";
+
+.button {
+  background: transparent;
+  cursor: pointer;
+  @extend %transition-background;
+  &:hover {
+    background: constants.$color-prime;
+    color: constants.$color-light;
+  }
+}
+
+.button_colored {
+  background: constants.$color-prime;
+  color: constants.$color-light;
+}

@@ -345,11 +345,11 @@ ul {
   transition: color 0.5s;
 }
 
-.welcome__button, .button {
+.button {
   transition: background-color 0.5s;
 }
 
-.button, .header__logo-title, .nav-link, h2 {
+.button__service, .button__prices, .header__logo-title, .nav-link, h2 {
   font-family: Inika, Verdana, sans-serif;
 }
 
@@ -537,6 +537,20 @@ h3 {
   bottom: 12px;
   transform: rotate(-45deg);
   box-shadow: 0 0 rgb(0, 128, 0);
+}
+
+.button {
+  background: transparent;
+  cursor: pointer;
+}
+.button:hover {
+  background: #E06733;
+  color: #ffffff;
+}
+
+.button_colored {
+  background: #E06733;
+  color: #ffffff;
 }
 
 .about {
@@ -1116,13 +1130,23 @@ h3 {
   }
 }
 
-.prices__button {
-  padding: 11px 34px 11px 31px;
+.button__prices {
+  font-size: 2rem;
+  font-style: normal;
   font-weight: 700;
+  line-height: normal;
+  padding: 11px 34px 11px 31px;
+  border-radius: 5px;
+  border: 1px solid #E06733;
+  color: #E06733;
 }
 @media (max-width: 380px) {
-  .prices__button {
+  .button__prices {
     padding: 7px 26px 6px 23px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
   }
 }
 
@@ -1175,28 +1199,26 @@ h3 {
   }
 }
 
-.service__buttons {
+.service__buttons-container {
   padding: 29px 0 0 0;
 }
 @media (max-width: 1222px) {
-  .service__buttons {
+  .service__buttons-container {
     padding: 0;
   }
 }
 
-.button {
+.button__service {
   border-radius: 5px;
   border: 1px solid #E06733;
   color: #E06733;
-  background: transparent;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  cursor: pointer;
 }
 @media (max-width: 380px) {
-  .button {
+  .button__service {
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
@@ -1204,39 +1226,34 @@ h3 {
   }
 }
 
-.button:hover {
-  background: #E06733;
-  color: #ffffff;
-}
-
-.button-gardens {
+.button__gardens {
   padding: 11px 44px 11px 39px;
   margin-right: 34px;
 }
 @media (max-width: 380px) {
-  .button-gardens {
+  .button__gardens {
     padding: 7px 32px 6px 31px;
     margin-right: 5px;
     margin-bottom: 9px;
   }
 }
 
-.button-lawn {
+.button__lawn {
   padding: 11px 54px 11px 53px;
   margin-right: 33px;
 }
 @media (max-width: 380px) {
-  .button-lawn {
+  .button__lawn {
     padding: 7px 40px 6px 40px;
     margin-right: 0;
   }
 }
 
-.button-planting {
+.button__planting {
   padding: 11px 43px 11px 39px;
 }
 @media (max-width: 380px) {
-  .button-planting {
+  .button__planting {
     padding: 7px 30px 6px 31px;
   }
 }
@@ -1487,26 +1504,19 @@ h3 {
   }
 }
 
-.welcome__button {
+.button__welcome {
   padding: 11px 26px;
-  background: transparent;
   border-radius: 10px;
   border: 2px solid #E06733;
-  cursor: pointer;
 }
 @media (max-width: 380px) {
-  .welcome__button {
+  .button__welcome {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
     padding: 5px 16px;
   }
-}
-
-.welcome__button:hover {
-  background: #E06733;
-  color: #ffffff;
 }
 
 .welcome__leafs {
