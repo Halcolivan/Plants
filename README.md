@@ -1,2 +1,2 @@
 # Plants
-[нажмите для просмотра](https://halcolivan.github.io/Plants/)
+[Нажмите для просмотра](https://halcolivan.github.io/Plants/)
